@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Quizzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="main">
+    <header class="header">
+      <a href="#" class="logo">Quizzer</a>
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <div class="container">
+      <section class="quiz-section">
+        <div class="quiz-box">
+          <h1>Quizzer</h1>
+          <div class="quiz-header">
+            <span>Being Scholar</span>
+            <span class="header-score">Score: 0 / 5</span>
+          </div>
+          <h2 class="question-text">What does HTML stands for?</h2>
+          <div class="option-list">
+            <!--     <div class="option">
+                     <span>A.Hyper Type Multi Language</span>
+                 </div>
+                 <div class="option">
+                     <span>B.Hyper Text Multiple Language</span>
+                 </div>
+                 <div class="option">
+                     <span>C.Hyper Text Markup language</span>
+                 </div>
+                 <div class="option">
+                     <span>D. Home Text Multi Language</span>
+                 </div>  -->
+          </div>
+          <div class="quiz-footer">
+            <span class="question-total">1 of 5 Questions</span>
+            <button class="next-btn">Next</button>
+          </div>
+        </div>
+        <div class="result-box">
+          <h2>Quiz Result!</h2>
+          <div class="percentage-container">
+            <div class="circular-progress">
+              <span class="progress-value">0%</span>
+            </div>
+            <span class="score-text">Your score is 0 out of 5</span>
+          </div>
+          <div class="buttons">
+            <button class="tryAgain-btn">Try Again</button>
+            <button class="goHome-btn">Go To Home</button>
+          </div>
+        </div>
+      </section>
+      <section class="home">
+        <div class="home-content">
+          <h1>Master the Quiz</h1>
+          <p>Solve daily quiz on quizzer and be the one who can stand out of the crowd. Quizzer offers you daily quiz
+            sessions and Performance calculations so that you can improve yourself.</p>
+          <button class="start-btn">Start Quiz</button>
+        </div>
+      </section>
+    </div>
+  </main>
+  <div class="popup-info">
+    <h2>Quiz Guide</h2>
+    <span class="info">1.Questions will be of MCQ pattern.</span>
+    <span class="info">2.Solve all questions in order to improve total score.</span>
+    <span class="info">3.There is no negative marking scheme.</span>
+    <span class="info">4.Performance will be shared after completion of the whole Quiz.</span>
+    <div class="btn-group">
+      <button class="info-btn exit-btn">Exit Quiz</button>
+      <a href="#" class="info-btn continue-btn">Continue</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="questions.js"></script>
+</body>
+
+</html>
